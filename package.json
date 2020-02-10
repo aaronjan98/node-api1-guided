@@ -4,6 +4,7 @@
   "description": "Node API 1 Guided Project",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "server": "nodemon index.js",
     "db:latest": "knex migrate:latest",
     "db:seed": "knex seed:run"
@@ -28,6 +29,7 @@
     "nodemon": "^2.0.2"
   },
   "dependencies": {
+    "express": "^4.17.1",
     "knex": "^0.20.7",
     "sqlite3": "^4.1.1"
   }
